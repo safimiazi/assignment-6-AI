@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bdtube</title>
+    
+    <!--DaisyUI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="px-4 md:px-8">
+        <!--Navbar-->
+        <div class="navbar bg-base-100 my-4">
+            <div class="navbar-start">
+              <img src="Logo.png" alt="">
+            </div>
+           
+            <div class="navbar-center hidden lg:flex">
+                <div class="navbar-center">
+                    <a onclick="loadView()" class="btn">short by view</a>
+                </div>
+            </div>
+            <div class="navbar-end">
+              <a href="blog.html" target="_blank" class="btn bg-[#FF1F3D] text-white">Blog</a>
+            </div>
+          </div>
+          <hr>
+          <!--Tab-->
+          <div id="category-container" class="tabs  py-3 flex gap-4 justify-center">
+
+          </div>
+    </header>
+    <main>
+        <section  class="py-10 px-4  md:px-8">
+            <div id="card-container" class="gap-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+                
+            </div>
+            <div id="hidden-container" class="hidden  max-w-screen-xl mx-auto flex-1 justify-center text-center mt-20">
+                <figure class="flex justify-center">
+                    <img src="Icon.png" alt="">
+                </figure>
+                <h5 class="text-2xl">Oops!! Sorry, There is no content here</h5>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="js/short.js"></script>
+</body>
+</html>
+
+
+
+
